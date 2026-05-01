@@ -67,6 +67,7 @@ Características
 * Pseudocódigo
 
 Son instrucciones escritas bajo cierta estructura y reglas que inducirá al alumno hacia los lenguajes de programación.
+
 <image src="portafolio-digital\f8dd12e9-9921-48cd-87ec-f3e9fbe77974.jpg" alt="Descripción de la imagen">
 
 * Diagrama de Flujo
