@@ -7,7 +7,7 @@
 
 <br>
 
-<image src="portafolio-digital\Universidad-Nacional-de-Loja-UNL.png" alt="Descripción de la imagen">
+<image src="https://univercimas.com/wp-content/uploads/2021/04/Universidad-Nacional-de-Loja-UNL.png" alt="Descripción de la imagen">
 
 <br>
 
