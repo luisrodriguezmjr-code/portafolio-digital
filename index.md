@@ -7,7 +7,7 @@
 
 <br>
 
-![logo unl]("portafolio-digital\Universidad-Nacional-de-Loja-UNL.png")
+![logo unl][def"portafolio-digital\Universidad-Nacional-de-Loja-UNL.png"]
 
 <br>
 
@@ -37,3 +37,6 @@
 ## Unidad 2
 
 ## Unidad 3
+
+
+[def]: "portafolio-digital\Universidad-Nacional-de-Loja-UNL.png"
