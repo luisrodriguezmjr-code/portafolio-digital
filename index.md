@@ -7,7 +7,7 @@
 
 <br>
 
-![logo unl][def"portafolio-digital\Universidad-Nacional-de-Loja-UNL.png"]
+<image src="portafolio-digital\Universidad-Nacional-de-Loja-UNL.png" alt="Descripción de la imagen">
 
 <br>
 
