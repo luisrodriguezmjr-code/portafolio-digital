@@ -99,3 +99,4 @@ Es un entorno de programación visual donde los usuarios crean programas arrastr
 
 FinAlgoritmo
 [def]: "portafolio-digital\Universidad-Nacional-de-Loja-UNL.png"
+[def2]: "portafolio-digital\f8dd12e9-9921-48cd-87ec-f3e9fbe77974.jpg"
