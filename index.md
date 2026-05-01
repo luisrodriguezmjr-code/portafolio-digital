@@ -7,7 +7,7 @@
 
 <br>
 
-<img src="[https://via.placeholder.com/150](https://via.placeholder.com/150)" alt="Logo de la Institución" width="120"/>
+![logo unl](portafolio-digital\Universidad-Nacional-de-Loja-UNL.png)
 
 <br>
 
@@ -31,6 +31,7 @@
 **Quito, Ecuador** **2026**
 
 </div>
+
 ## Unidad 1
 
 ## Unidad 2
