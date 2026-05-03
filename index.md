@@ -138,11 +138,34 @@ En la programación tradicional, para mostrar un mensaje en pantalla escribiría
 ## 2. Ejercicio con Estructura Secuencial
 
 * Planteamiento del Problema
-
+Realice un programa que, tomando una cantidad de tiempo expresada en horas 24, la transforme a su equivalente en días, minutos y segundos.
 
 #### Pseudocódigo
+~~~
+ #include <stdio.h>
 
+int main() {
+    //VARIABLES
+    float horas, dias, minutos, segundos;
+    
+    //DATOS
+    printf("Ingrese la cantidad de tiempo en horas: ");
+    scanf("%f", &horas);
 
+    //PROCESO
+    dias = horas / 24;         
+    minutos = horas * 60;       
+    segundos = horas * 3600;   
+
+    //SALIDA
+    printf("%horas equivalen a:\n", horas);
+    printf("%f dias\n", dias);
+    printf("%f minutos\n", minutos);
+    printf("%f segundos\n", segundos);
+
+    return 0;
+}
+~~~
 
 ## Unidad 2
 
