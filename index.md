@@ -158,7 +158,7 @@ int main() {
     segundos = horas * 3600;   
 
     //SALIDA
-    printf("%horas equivalen a:\n", horas);
+    printf("%f horas equivalen a:\n", horas);
     printf("%f dias\n", dias);
     printf("%f minutos\n", minutos);
     printf("%f segundos\n", segundos);
@@ -166,6 +166,13 @@ int main() {
     return 0;
 }
 ~~~
+* Validación (prueba de escritorio)
+
+<img src="./Imagenes/Captura de pantalla 2026-05-02 233101.png" alt="Descripción de la imagen" width="400">
+
+* Principales dificultades y reflexión crítica en la aplicación de los contenidos.
+
+La parte que mas se me dificulto es la de hacer la caratula y desarrolar el problema, ya que me fata mas conocimientos y praticar mas aun  hay partes que no comprendo y nesesito tutorias. De ahi me pareceio muy interensate desarrollar un portafolio digital se me hizo mas facil que desarrollar uno fisico.
 
 ## Unidad 2
 
