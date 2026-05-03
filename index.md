@@ -68,22 +68,22 @@ Características
 
 Son instrucciones escritas bajo cierta estructura y reglas que inducirá al alumno hacia los lenguajes de programación.
 
-<img src="./Nueva carpeta/f8dd12e9-9921-48cd-87ec-f3e9fbe77974.jpg" alt="Descripción de la imagen" width="400">
+<img src="./Imagenes/f8dd12e9-9921-48cd-87ec-f3e9fbe77974.jpg" alt="Descripción de la imagen" width="400">
 
 * Diagrama de Flujo
 
 Utiliza símbolos y describen las instrucciones que debe seguir el algoritmo.
 
-<img src="./Nueva carpeta/9da74477-568a-4dea-8045-7397d9c8fe91.jpg" alt="Descripción de la imagen" width="400">
+<img src="./Imagenes/9da74477-568a-4dea-8045-7397d9c8fe91.jpg" alt="Descripción de la imagen" width="400">
 
-<img src="./Nueva carpeta/7c94bfc3-0605-44ba-bedd-67d02824bb89.jpg" alt="Descripción de la imagen" width="400">
+<img src="./Imagenes/7c94bfc3-0605-44ba-bedd-67d02824bb89.jpg" alt="Descripción de la imagen" width="400">
 
 * Prueba de Escritorio
 
 Simular datos de entrada, para comprobar que los resultados sean correctos.
 De no ser ası́, será necesario revisar el análisis del problema y el código del algoritmo para aplicar las respectivas correcciones y repetir la prueba de escritorio hasta obtener los datos de salida esperados o correctos.
 
-<img src="./Nueva carpeta/Captura de pantalla 2026-05-01 191611.png" alt="Descripción de la imagen" width="400">
+<img src="./Imagenes/Captura de pantalla 2026-05-01 191611.png" alt="Descripción de la imagen" width="400">
 
 * Lenguajes de Programación
 
