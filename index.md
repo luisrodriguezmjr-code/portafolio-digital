@@ -1,22 +1,18 @@
-## Portafolio Digital de Aprendizaje – Teoría de la Programación
+# Portafolio Digital de Aprendizaje – Teoría de la Programación.
 
 <div align="center">
 
 # UNIVERSIDAD NACIONAL DE LOJA
-
-## FACULTAD DE LA ENERGÍA, LAS INDUSTRIAS Y LOS RECURSOS NATURALES NO RENOVABLES
-
-### CARRERA DE INGENIERÍA DE COMPUTACIÓN
+## FACULTAD DE ACULTAD DE LA ENERGÍA, LAS INDUSTRIAS Y LOS RECURSOS NATURALES NO RENOVABLES
+### CARRERA DE INGENIERÍA DE COMPUTACION
 
 <br>
 
-<img src="https://univercimas.com/wp-content/uploads/2021/04/Universidad-Nacional-de-Loja-UNL.png" width="200">
+<img src="https://univercimas.com/wp-content/uploads/2021/04/Universidad-Nacional-de-Loja-UNL.png" alt="Descripción de la imagen">
 
 </div>
 
 <br>
-
-## Información Académica
 
 | Información Académica | Detalle |
 | :--- | :--- |
@@ -26,14 +22,10 @@
 | **Docente** | Lissete Geoconda Loppéz Faican |
 | **Estudiante** | Luis Alejandro Rodríguez Luzón |
 
-<br>
-
 <p align="center">
 Loja, Ecuador <br>
 2026
 </p>
-
-</div>
 
 ## Unidad 1
 
