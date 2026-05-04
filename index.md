@@ -173,6 +173,10 @@ int main() {
 
 La parte que mas se me dificulto es la de hacer la caratula y desarrolar el problema, ya que me fata mas conocimientos y praticar mas aun  hay partes que no comprendo y nesesito tutorias. De ahi me pareceio muy interensate desarrollar un portafolio digital se me hizo mas facil que desarrollar uno fisico.
 
+* Declaracion del uso del IA
+
+ si utiliza el IA como gemmini para saber cual son los comandos para comprender mejor como uso el MARKDAWON y para corregir problemas que tenia al momento de crear el portafolio
+
 ## Unidad 2
 
 ## Unidad 3
