@@ -1,10 +1,8 @@
 # Unidad 2
 
-# TRABAJO PRÁCTICO DE PROGRAMACIÓN
-
 ---
 
-## 1. Contenidos Teóricos
+## Contenidos Teóricos
 
 ### Estructura Condicionales
 Son usados para seleccionar “la ruta que debe tomar la ejecución de
@@ -15,55 +13,55 @@ instrucciones de un algoritmo/programa (tomas de decisiones)”
 También llamada de alternativa o selectivas, permite en
 función de una condición elegir un camino de ejecución.
 
-* Estructura Condicional Simple (Si ..Entonces)
+## 1. Estructura Condicional Simple (Si ..Entonces)
 <img width="766" height="282" alt="Captura de pantalla 2026-06-09 160914" src="https://github.com/user-attachments/assets/3c8e0533-9f97-4574-9ab7-6806c8669de9" />
 Las estructuras condicionales simples son el primer paso para darle "cerebro" a nuestro código. Le permiten a un programa tomar decisiones básicas: si se cumple una condición, se hace algo; si no se cumple, simplemente se ignora y el programa sigue de largo.
 <img width="512" height="436" alt="imagen06" src="https://github.com/user-attachments/assets/8335ff40-0346-43e0-a11a-792274bbf1e3" />
 
-* Estructura Condicional Doble (Si ..Entonces, Sino ..)
+## 2. Estructura Condicional Doble (Si ..Entonces, Sino ..)
 
   La estructura condicional doble (también conocida como Si...Entonces...Sino) permite a un programa tomar decisiones, ofreciendo dos caminos distintos a seguir: uno si la condición resulta ser verdadera (o se cumple) y otro diferente si resulta ser falsa
   
   <img width="512" height="436" alt="imagen06" src="https://github.com/user-attachments/assets/89ee471e-7066-41f4-be38-e86b5c1a14f0" />
 
-* Estructura Condicional Múltiple (En caso de ....)
+## 3. Estructura Condicional Múltiple (En caso de ....)
   
 La Estructura Condicional Múltiple (conocida en pseudocódigo como "En caso de" o "Según", y en lenguajes de programación como switch o match) se utiliza cuando tienes una sola variable que puede tomar múltiples valores distintos y quieres ejecutar un bloque de código diferente para cada valor, sin tener que encadenar muchísimos Si... Sino... Si....
 
 <img width="450" height="283" alt="foto035" src="https://github.com/user-attachments/assets/25483e95-f03f-4b7c-ac47-f8da8c5d4e6c" />
 
-* Anidamiento de estructuras de Condicionales
+## 4. Anidamiento de estructuras de Condicionales
 
 El Anidamiento de estructuras condicionales (o simplemente condicionales anidadas) ocurre cuando colocas una estructura condicional (Si... Entonces) dentro de otra estructura condicional.
 Se utiliza cuando para tomar una decisión no basta con evaluar una sola condición, sino que, tras haber cumplido o fallado una primera condición, se requiere comprobar inmediatamente otra condición interna para determinar la acción exacta a realizar.
 
 <img width="502" height="637" alt="foto036" src="https://github.com/user-attachments/assets/cf306621-d43c-4348-b790-2f9398a48563" />
 
-* Implementación de Estructuras Condicionales en Lenguaje de programación
+5. Implementación de Estructuras Condicionales en Lenguaje de programación
   
 Para implementar las tomas de decisiones en un lenguaje de programación, el compilador utiliza palabras reservadas en inglés que sustituyen los comandos lógicos del pseudocódigo y las bifurcaciones de los diagramas de flujo:  
 
-1. Si se traduce e implementa como if.
+## 5.1. Si se traduce e implementa como if.
    
    Condicional Simple (if)
 Evalúa una condición booleana entre paréntesis. Si esta es verdadera (true), ejecuta las instrucciones que se encuentran dentro de las llaves {}. Si es falsa (false), el programa ignora por completo ese bloque.
 
-2. Entonces se representa mediante la apertura de llaves { (que delimitan el bloque de instrucciones).
+## 5.2. Entonces se representa mediante la apertura de llaves { (que delimitan el bloque de instrucciones).
    
    Condicional Doble (if - else)
 Se utiliza cuando el algoritmo cuenta con dos caminos de ejecución obligatorios. Cuando la condición del if resulta falsa, el flujo del programa se desvía inmediatamente a las instrucciones contenidas dentro del bloque else.
 
-3. Sino se traduce e implementa como else
+## 5.3. Sino se traduce e implementa como else
    
    Condicionales Anidadas (if dentro de otro if)
 Su implementación consiste en colocar una estructura if o if-else completa dentro de las llaves de otra condición. Al programarlas, es un requisito de buena práctica mantener una correcta indentación (sangrado con la tecla Tabulador) para identificar visualmente a qué declaración pertenece cada llave de cierre.
 
-4. Según / En caso de se traduce e implementa como switch.
+## 5.4. Según / En caso de se traduce e implementa como switch.
    
    Condicional Múltiple (switch)
 Es la traducción del "Según / En caso de". Evalúa una sola variable (que debe ser de tipo entero o carácter) y salta directamente hacia la etiqueta case que coincida de forma exacta con su valor.
 
-* Planteamiento del Problema
+## 6. Planteamiento del Problema
   
 Un sistema para una tienda tecnológica debe procesar la compra de un artículo. El programa debe:
 Solicitar el precio del artículo y la cantidad.
@@ -79,7 +77,7 @@ Solicitar el método de pago (1. Efectivo, 2. Tarjeta de Crédito, 3. Transferen
 Las estructuras repetitivas permiten repetir un número determinado de veces un grupo de sentencias o instrucciones, o hasta que se cumpla una condición.
 A estas estructuras se denomina bucle. Al hecho de repetir la ejecución de esta secuencia de instrucciones se le llama iteración, de donde viene el otro nombre de estas estructuras: Iterativas (Figueroa Piscoya et al, 2021).
 
-* Terminología Básica (Contadores y Acumuladores)
+## 1. Terminología Básica (Contadores y Acumuladores)
 
   Contadores.
 Es una variable cuyo valor se incrementa sucesivamente de uno en uno por lo general. Debe ser inicializada en cero:
@@ -95,26 +93,26 @@ acumulador = acumulador + variable;
 suma = suma + edad
 total = total – descuento
 
-* Estructura Mientras.
+## 2. Estructura Mientras.
 La Estructura Repetitiva "Mientras" (conocida en inglés y en la mayoría de los lenguajes de programación como el bucle while) es una estructura de control que permite ejecutar un bloque de instrucciones de forma cíclica o repetitiva mientras una condición determinada sea verdadera.  Su característica principal es que evalúa la condición al inicio, antes de entrar al bucle. Si la condición es falsa desde el primer intento, el bloque de código de su interior nunca se ejecutará.
 
 <img width="752" height="713" alt="while" src="https://github.com/user-attachments/assets/bcb0e139-c850-4c07-aab8-601664ec20f5" />
 
-* Estructura Hacer .. Mientras (Repetir ..Hasta)
+## 3. Estructura Hacer .. Mientras (Repetir ..Hasta)
 
 La Estructura Repetitiva "Hacer... Mientras" (conocida en pseudocódigo como "Repetir... Hasta" o "Hacer... Repetir", y en lenguajes de programación como el bucle do-while) es una estructura de control cíclica que ejecuta un bloque de instrucciones y, después de ejecutarlas, evalúa una condición para decidir si vuelve a repetir el ciclo.
 Su característica fundamental y diferenciadora es que evalúa la condición al final. Esto garantiza que el bloque de código de su interior se ejecute al menos una vez, sin importar si la condición es verdadera o falsa desde el principio.
 
 <img width="326" height="294" alt="repetir-hasta-que-diagrama-de-flujo" src="https://github.com/user-attachments/assets/b3ed43bb-cb34-43a5-92a5-16496d4273ef" />
 
-* Estructura Para.
+## 4. Estructura Para.
   
 La Estructura Repetitiva "Para" (conocida universalmente en los lenguajes de programación como el bucle for) es una estructura de control cíclica diseñada para situaciones donde se conoce de antemano el número exacto de veces que se debe ejecutar el bloque de instrucciones.
 A diferencia de los bucles Mientras o Hacer... Mientras, que dependen puramente de una condición lógica que puede cambiar en cualquier momento, el bucle Para utiliza una variable de control (o contador) que se incrementa o decrementa de forma automática en cada vuelta hasta alcanzar un límite preestablecido.
 
   <img width="743" height="683" alt="for" src="https://github.com/user-attachments/assets/0977e07f-d724-4f1a-a617-ec32bf045531" />
 
-* Anidamiento de estructuras repetitivas
+## 5. Anidamiento de estructuras repetitivas
 
   El Anidamiento de estructuras repetitivas (también conocido como bucles anidados o nested loops) ocurre cuando se coloca una estructura repetitiva (Para, Mientras o Repetir) dentro del cuerpo de otra estructura repetitiva.
 Cuando se programan bucles anidados, el bucle que está afuera se denomina bucle externo y el que está adentro se conoce como bucle interno.
@@ -122,18 +120,19 @@ Su regla de funcionamiento es estricta: por cada una de las vueltas que da el bu
 
 <img width="351" height="376" alt="Estructuras_de_decisi%3Fn_anidadas" src="https://github.com/user-attachments/assets/7a4f2ce3-da2e-41c3-9d82-ccca14f8176c" />
 
-* Implementación de Estructuras repetitivas en Lenguaje de programación
+## 6. Implementación de Estructuras repetitivas en Lenguaje de programación
   
-  1. Bucle Basado en Condición Inicial (while)
+## 6.1. Bucle Basado en Condición Inicial (while)
 Es la implementación directa de la estructura Mientras. Evalúa la condición booleana entre paréntesis antes de permitir cualquier acción. Si es verdadera, ejecuta el bloque de código entre llaves {} y vuelve a evaluar.
 
-2. Bucle Basado en Condición Final (do - while)
+## 6.2. Bucle Basado en Condición Final (do - while)
 Es la implementación de la estructura Hacer... Mientras (o Repetir... Hasta). Las instrucciones dentro del bloque do se ejecutan de forma obligatoria la primera vez. Al llegar a la llave de cierre, se evalúa el while; si la condición es verdadera, el flujo regresa al do.
 
-3. Bucle Basado en Contador Determinado (for)
+## 6.3. Bucle Basado en Contador Determinado (for)
 Es la implementación de la estructura Para. Es la estructura más compacta porque condensa la inicialización, la condición de parada y el incremento/decremento en una sola línea de cabecera, separados por puntos y comas (;).
 
 ###  Ejercicio con estructura condicional y repetitiva
+
 ## 2. Evidencia Práctica o Aplicación
 
 ### Planteamiento del problema
@@ -146,6 +145,7 @@ Se requiere desarrollar un programa en Lenguaje C para automatizar el control de
 6. Al finalizar el turno, el programa debe desplegar estadísticas globales: el total de dinero recaudado en la cabina y el conteo exacto de cuántos vehículos de cada tipo fueron procesados.
 
 ### Análisis del problema
+
 * **Entradas:**
   * Cantidad de vehículos en el turno (`total_vehiculos` - entero).
   * Tipo de vehículo (`tipo` - entero: 1, 2 o 3).
@@ -288,3 +288,7 @@ Al momento de pasar la teoría al código real en Lenguaje C, me topé con vario
 Aprender a usar bucles junto con condicionales me hizo dar cuenta de que la programación no es solo hacer que el código corra, sino también protegerlo de los errores del usuario. 
 Antes de esta unidad, mis programas se rompían si el usuario ingresaba un número que no correspondía. Al meter un `do-while` dentro de un `for`, logré "blindar" el código para que nadie pueda ingresar datos falsos o erróneos antes de que los condicionales (`switch` o `if-else`) hagan sus cálculos. Esto me demostró que en Computación cada operador lógico y cada signo cuentan. 
 La prueba de escritorio y revisar mi propia captura de pantalla me sirvieron muchísimo para entender qué es lo que pasa realmente en la memoria de la computadora en cada vuelta del ciclo, ayudándome a conectar la teoría de la materia con la práctica real.
+
+## Declaracion del uso de IA
+
+"Para este trabajo utilicé la IA principalmente como un asistente de desarrollo y co-piloto de código. Me sirvió para estructurar la lógica de las condiciones en Lenguaje C, corregir errores de sintaxis en los bucles for y do-while que me daban problemas al compilar, y automatizar el diseño del diagrama de flujo en PlantUML para draw.io. Además, me ayudó a organizar la prueba de escritorio en una tabla limpia de Markdown basada exactamente en los datos de mi captura de pantalla real, asegurándome de que todo el documento mantenga el formato profesional que exige el portafolio."
