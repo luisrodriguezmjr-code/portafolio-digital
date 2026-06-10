@@ -295,12 +295,13 @@ La prueba de escritorio y revisar mi propia captura de pantalla me sirvieron muc
 * Bhuiyan, A. A., & Amiruzzaman, M. (2025). Programming with Java (2nd ed.). The Pennsylvania Alliance for Design of Open Textbooks (PA-ADOPT). Disponible en: https://open.umn.edu/opentextbooks/textbooks/programming-with-java 
 * Guerra Salazar, J. E, Ramos Valencia,M. V, Vallejo Vallejo, G. E. (2023). Programando en C desde la práctica problemas resueltos. Puerto Madero Editorial. Disponible en: https://dialnet.unirioja.es/servlet/libro?codigo=933288 
 * Toro Bonilla, J. M. (2023). Fundamentos de programación: Python (2.ª ed.). Editorial Universidad de Sevilla. Disponible en: https://dialnet.unirioja.es/servlet/libro?codigo=871117
+
+## Declaracion del uso de IA
+
+"Para este trabajo utilicé la IA principalmente como un asistente de desarrollo y co-piloto de código. Me sirvió para estructurar la lógica de las condiciones en Lenguaje C, corregir errores de sintaxis en los bucles for y do-while que me daban problemas al compilar, y automatizar el diseño del diagrama de flujo en PlantUML para draw.io. Además, me ayudó a organizar la prueba de escritorio en una tabla limpia de Markdown basada exactamente en los datos de mi captura de pantalla real, asegurándome de que todo el documento mantenga el formato profesional que exige el portafolio."
+
 ---
 <p align="center">
   <a href="../readme.md"> Volver a la Página Principal</a>
 </p>
 
-
-## Declaracion del uso de IA
-
-"Para este trabajo utilicé la IA principalmente como un asistente de desarrollo y co-piloto de código. Me sirvió para estructurar la lógica de las condiciones en Lenguaje C, corregir errores de sintaxis en los bucles for y do-while que me daban problemas al compilar, y automatizar el diseño del diagrama de flujo en PlantUML para draw.io. Además, me ayudó a organizar la prueba de escritorio en una tabla limpia de Markdown basada exactamente en los datos de mi captura de pantalla real, asegurándome de que todo el documento mantenga el formato profesional que exige el portafolio."
