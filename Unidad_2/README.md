@@ -289,6 +289,14 @@ Aprender a usar bucles junto con condicionales me hizo dar cuenta de que la prog
 Antes de esta unidad, mis programas se rompían si el usuario ingresaba un número que no correspondía. Al meter un `do-while` dentro de un `for`, logré "blindar" el código para que nadie pueda ingresar datos falsos o erróneos antes de que los condicionales (`switch` o `if-else`) hagan sus cálculos. Esto me demostró que en Computación cada operador lógico y cada signo cuentan. 
 La prueba de escritorio y revisar mi propia captura de pantalla me sirvieron muchísimo para entender qué es lo que pasa realmente en la memoria de la computadora en cada vuelta del ciclo, ayudándome a conectar la teoría de la materia con la práctica real.
 
+### Bibliografía 
+
+* Arteaga Martínez M. M. (2023). Lógica de programación con Pseint. Enfoque práctico (Primera edición). Fondo Editorial Remington. Disponible en: https://research.ebsco.com/linkprocessor/plink?id=0c1115b8-e552-38e4-bc75-bf84bbdd293f 
+* Bhuiyan, A. A., & Amiruzzaman, M. (2025). Programming with Java (2nd ed.). The Pennsylvania Alliance for Design of Open Textbooks (PA-ADOPT). Disponible en: https://open.umn.edu/opentextbooks/textbooks/programming-with-java 
+* Guerra Salazar, J. E, Ramos Valencia,M. V, Vallejo Vallejo, G. E. (2023). Programando en C desde la práctica problemas resueltos. Puerto Madero Editorial. Disponible en: https://dialnet.unirioja.es/servlet/libro?codigo=933288 
+* Toro Bonilla, J. M. (2023). Fundamentos de programación: Python (2.ª ed.). Editorial Universidad de Sevilla. Disponible en: https://dialnet.unirioja.es/servlet/libro?codigo=871117 
+
+
 ## Declaracion del uso de IA
 
 "Para este trabajo utilicé la IA principalmente como un asistente de desarrollo y co-piloto de código. Me sirvió para estructurar la lógica de las condiciones en Lenguaje C, corregir errores de sintaxis en los bucles for y do-while que me daban problemas al compilar, y automatizar el diseño del diagrama de flujo en PlantUML para draw.io. Además, me ayudó a organizar la prueba de escritorio en una tabla limpia de Markdown basada exactamente en los datos de mi captura de pantalla real, asegurándome de que todo el documento mantenga el formato profesional que exige el portafolio."
