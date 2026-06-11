@@ -61,17 +61,6 @@ Su implementación consiste en colocar una estructura if o if-else completa dent
    Condicional Múltiple (switch)
 Es la traducción del "Según / En caso de". Evalúa una sola variable (que debe ser de tipo entero o carácter) y salta directamente hacia la etiqueta case que coincida de forma exacta con su valor.
 
-## 6. Planteamiento del Problema
-  
-Un sistema para una tienda tecnológica debe procesar la compra de un artículo. El programa debe:
-Solicitar el precio del artículo y la cantidad.
-Calcular el total. Si la cantidad de artículos es mayor a 5, aplicar un descuento inicial del 10% (Condicional Simple).
-Preguntar si el cliente tiene tarjeta de membresía VIP. Si la tiene, aplicar un 5% de descuento adicional, pero si el total con descuento quedó por debajo de $100, el descuento adicional será solo del 2% (Condicional Anidada dentro de una Condicional Doble).
-Solicitar el método de pago (1. Efectivo, 2. Tarjeta de Crédito, 3. Transferencia) y aplicar una comisión o beneficio según el caso (Condicional Múltiple).
-
-*Diagrama de flujo.
-<img width="912" height="846" alt="Captura de pantalla 2026-06-09 174325" src="https://github.com/user-attachments/assets/2ef448aa-d543-46b5-81be-0e0ab068a86f" />
-
 ### Estructuras repetitivas
 
 Las estructuras repetitivas permiten repetir un número determinado de veces un grupo de sentencias o instrucciones, o hasta que se cumpla una condición.
