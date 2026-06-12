@@ -244,17 +244,19 @@ int main(){
 
 ### Validación (Prueba de Escritorio Basada en Ejecución Real)
 
-La siguiente tabla representa la traza lógica de la ejecución real del programa (captura de pantalla adjunta), procesando un lote de **2 vehículos**:
+La siguiente tabla representa la traza lógica de la ejecución real del programa, procesando un lote de **3 vehículos** para validar todos los caminos del algoritmo:
 * **Vehículo 1:** Automóvil (`tipo = 2`, Tarifa: $2.50).
-* **Vehículo 2:** Motocicleta (`tipo = 1`, Tarifa: $1.00).
+* **Vehículo 2:** Camión con 4 ejes (`tipo = 3`, `ejes = 4`, Tarifa: $5.00 + $1.50 recargo = $6.50).
+* **Vehículo 3:** Motocicleta (`tipo = 1`, Tarifa: $1.00).
 
 | Ciclo / Acción | total_vehiculos | variable `i` | variable `tipo` | ¿`tipo` inválido? | variable `ejes` | `costo_vehiculo` | `total_recaudado` | Contadores (`c_motos`, `c_autos`, `c_camiones`) | Pantalla / Salida (printf) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| Inicialización | 2 | - | - | - | - | - | 0.0 | 0, 0, 0 | "Ingrese la cantidad de vehiculos..." |
-| **Iteración 1** | 2 | 1 | 2 | No (Falso) | - | 2.50 | **2.50** | 0, **1**, 0 | "Tarifa: Automovil -> $2.50" |
-| **Iteración 2** | 2 | 2 | 1 | No (Falso) | - | 1.00 | **3.50** | **1**, 1, 0 | "Tarifa: Motocicleta -> $1.00" |
-| Fin del Bucle | 2 | (Termina) | - | - | - | - | 3.50 | 1, 1, 0 | *El ciclo `for` finaliza al alcanzar el límite de 2* |
-| Impresión Final | 2 | - | - | - | - | - | 3.50 | 1, 1, 0 | **TOTAL RECAUDADO EN CAJA: $3.50** |
+| Inicialización | 3 | - | - | - | - | - | 0.0 | 0, 0, 0 | "Ingrese la cantidad de vehiculos..." |
+| **Iteración 1** | 3 | 1 | 2 | No (Falso) | - | 2.50 | **2.50** | 0, **1**, 0 | "Tarifa: Automovil -> $2.50" |
+| **Iteración 2** | 3 | 2 | 3 | No (Falso) | 4 | 6.50 | **9.00** | 0, 1, **1** | "Recargo aplicado... Tarifa Final Camion -> $6.50" |
+| **Iteración 3** | 3 | 3 | 1 | No (Falso) | - | 1.00 | **10.00** | **1**, 1, 1 | "Tarifa: Motocicleta -> $1.00" |
+| Fin del Bucle | 3 | (Termina) | - | - | - | - | 10.00 | 1, 1, 1 | *El ciclo `for` finaliza al alcanzar el límite de 3* |
+| Impresión Final | 3 | - | - | - | - | - | 10.00 | 1, 1, 1 | **TOTAL RECAUDADO EN CAJA: $10.00** |
 
 ### Principales dificultades y reflexión crítica en la aplicación de los contenidos.
 ## 3. Principales Dificultades y Reflexión Crítica
@@ -280,10 +282,13 @@ La prueba de escritorio y revisar mi propia captura de pantalla me sirvieron muc
 
 ### Bibliografía 
 
-* Arteaga Martínez M. M. (2023). Lógica de programación con Pseint. Enfoque práctico (Primera edición). Fondo Editorial Remington. Disponible en: https://research.ebsco.com/linkprocessor/plink?id=0c1115b8-e552-38e4-bc75-bf84bbdd293f 
-* Bhuiyan, A. A., & Amiruzzaman, M. (2025). Programming with Java (2nd ed.). The Pennsylvania Alliance for Design of Open Textbooks (PA-ADOPT). Disponible en: https://open.umn.edu/opentextbooks/textbooks/programming-with-java 
-* Guerra Salazar, J. E, Ramos Valencia,M. V, Vallejo Vallejo, G. E. (2023). Programando en C desde la práctica problemas resueltos. Puerto Madero Editorial. Disponible en: https://dialnet.unirioja.es/servlet/libro?codigo=933288 
-* Toro Bonilla, J. M. (2023). Fundamentos de programación: Python (2.ª ed.). Editorial Universidad de Sevilla. Disponible en: https://dialnet.unirioja.es/servlet/libro?codigo=871117
+[1] M. M. Arteaga Martínez, *Lógica de programación con Pseint. Enfoque práctico*, 1.ª ed. Medellín: Fondo Editorial Remington, 2023. Disponible: https://research.ebsco.com/linkprocessor/plink?id=0c1115b8-e552-38e4-bc75-bf84bbdd293f
+
+[2] A. A. Bhuiyan y M. Amiruzzaman, *Programming with Java*, 2.ª ed. Pennsylvania: The Pennsylvania Alliance for Design of Open Textbooks (PA-ADOPT), 2025. Disponible: https://open.umn.edu/opentextbooks/textbooks/programming-with-java
+
+[3] J. E. Guerra Salazar, M. V. Ramos Valencia y G. E. Vallejo Vallejo, *Programando en C desde la práctica problemas resueltos*. Buenos Aires: Puerto Madero Editorial, 2023. Disponible: https://dialnet.unirioja.es/servlet/libro?codigo=933288
+
+[4] J. M. Toro Bonilla, *Fundamentos de programación: Python*, 2.ª ed. Sevilla: Editorial Universidad de Sevilla, 2023. Disponible: https://dialnet.unirioja.es/servlet/libro?codigo=871117
 
 ## Declaracion del uso de IA
 
