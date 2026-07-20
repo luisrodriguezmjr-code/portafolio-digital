@@ -90,7 +90,7 @@ int main() {
     return 0;
 }
 ```
-### resultado del código en c
+### Prueba de escritorio
 
 <img width="566" height="123" alt="Captura de pantalla 2026-07-16 155929" src="https://github.com/user-attachments/assets/fc65960c-2202-4e08-8b38-2b98ef3574cf" />
 
@@ -130,7 +130,7 @@ int main() {
     return 0;
 }
 ```
-### resultado del código en c
+###  Prueba de escritorio
 <img width="495" height="130" alt="Captura de pantalla 2026-07-16 160621" src="https://github.com/user-attachments/assets/31420242-1dbb-4723-8bfa-b22ce41c0f13" />
 
 ### Arreglos Bidimensionales
@@ -173,7 +173,7 @@ int main() {
     return 0;
 }
 ```
-### resultado del código en c
+###  Prueba de escritorio
 <img width="437" height="270" alt="Captura de pantalla 2026-07-16 161413" src="https://github.com/user-attachments/assets/55c25d80-7a11-464e-8ec1-43752a02ca6f" />
 
 ### Arreglos Multidimensionales
@@ -217,7 +217,7 @@ int main(){
     return 0;
 }
 ```
-### resultado del código en c
+###  Prueba de escritorio
 <img width="517" height="490" alt="Captura de pantalla 2026-07-16 161935" src="https://github.com/user-attachments/assets/6ce19372-57ad-4413-969a-37f94edd1508" />
 
 ## Principales dificultades
