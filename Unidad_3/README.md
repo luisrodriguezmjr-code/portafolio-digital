@@ -32,6 +32,10 @@ Teoría: En el paso por valor, la función recibe una copia del dato almacenado 
 ¿Cuándo usarlo?: Se utiliza cuando solo necesitamos leer o procesar la información sin alterar la variable original.
 
  ### Ejemplo en C.
+ - Contexto del problema
+   
+Crear un programa en C que simule el incremento de $5.00 a un precio base dentro de una función, verificando si la variable original del programa principal se modifica o no tras realizar la operación.
+
 ```c
 #include <stdio.h>
 
@@ -66,6 +70,9 @@ En el lenguaje C estándar, el paso por referencia se emula utilizando punteros.
 ¿Cuándo usarlo?: Se utiliza cuando queremos que la función modifique directamente una o más variables externas, o cuando necesitamos retornar más de un valor desde una función.
 
  ### Ejemplo en C.
+ - Contexto del problema
+Crear un programa en C que aplique un descuento de $5.00 al precio de un producto dentro de una función, de tal manera que el cambio afecte directamente y de forma permanente a la variable original del programa principal.
+
 ```c
 #include <stdio.h>
 
@@ -237,11 +244,11 @@ Goin, M. (2022). Caminando junto al Lenguaje C. Editorail UNRN Disponible en: ht
 Guerra Salazar, J. E, Ramos Valencia,M. V, Vallejo Vallejo, G. E. (2023). Programando en C desde la práctica problemas resueltos. Puerto Madero Editorial. Disponible en: https://dialnet.unirioja.es/servlet/libro?codigo=933288 
 
 ## Conclusiones generales.
-1. La modularidad en C es una herramienta clave que me ayuda a no repetir código y a tener programas mucho más limpios; aunque usar punteros y direcciones de memoria para      el paso por referencia es complicado al principio, entiendo que es la mejor manera de optimizar el uso de los recursos de la computadora.
+1. La modularidad en C es una herramienta clave que me ayuda a no repetir código y a tener programas mucho más limpios; aunque usar punteros y direcciones de memoria para el paso por referencia es complicado al principio, entiendo que es la mejor manera de optimizar el uso de los recursos de la computadora.
  
-2. Los arreglos (desde los vectores simples hasta las matrices y arreglos multidimensionales) son indispensables para manejar grandes cantidades de datos bajo un solo          nombre, permitiéndome organizar la información de forma lógica en lugar de usar variables individuales para todo.
+2. Los arreglos (desde los vectores simples hasta las matrices y arreglos multidimensionales) son indispensables para manejar grandes cantidades de datos bajo un solo nombre, permitiéndome organizar la información de forma lógica en lugar de usar variables individuales para todo.
 
-3. El uso de cadenas de caracteres en C me enseñó que la memoria se maneja de forma muy estricta en este lenguaje, ya que al ser simplemente arreglos de tipo char, siempre     se debe tener en cuenta el carácter nulo '\0' al final para evitar errores al mostrar o guardar textos.
+3. El uso de cadenas de caracteres en C me enseñó que la memoria se maneja de forma muy estricta en este lenguaje, ya que al ser simplemente arreglos de tipo char, siempre se debe tener en cuenta el carácter nulo '\0' al final para evitar errores al mostrar o guardar textos.
 
 ## Declaracion del uso de IA
 En cumplimiento con las directrices de la asignatura , declaro que utilicé herramientas de Inteligencia Artificial Generativa como tutor de acompañamiento. Su uso se limitó a resolver dudas conceptuales sobre la lógica de los punteros en C, estructurar de manera óptima y limpia los ejemplos de código planteados en el portafolio, y como apoyo para organizar mis ideas en la redacción de las dificultades y la reflexión crítica
